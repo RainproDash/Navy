@@ -1,24 +1,20 @@
 # Navy
 A battle ship game
 
-Ce programme est une version terminale du très célèbre jeu la battaille navalle utilisant les signaux.
-
+Ce programme est une version terminale du très célèbre jeu la battaille navalle utilisant les signaux.  
 Les deux joueurs communiquent UNIQUEMENT en utilisant les signaux SIGUSER1 et SIGUSER2.
 
-La taille de la carte est de 8x8. A chaque tour, le programme affiche la positions du joueur, puis les positions de l'ennemi.
-
+La taille de la carte est de 8x8. A chaque tour, le programme affiche la positions du joueur, puis les positions de l'ennemi.  
 A la fin de la partie (quand tous les vaisseaux d'un joueur ont été touché), le programme affiche soit « J'ai gagné » (et renvoyer 0) ou « L'ennemi a gagné » (et renvoie 1).
+<p align="center">
+  <img src="https://github.com/RainproDash/Navy/assets/91848714/b99d8ae9-dcbf-4105-8394-b1fe1f7b83a8" alt="Image de démonstration">
+</p>
 
-![image](https://github.com/RainproDash/Navy/assets/91848714/b99d8ae9-dcbf-4105-8394-b1fe1f7b83a8)
 
-Le fichier passé en paramètre doit contenir des lignes formatées de la manière suivante :
-
-LONGUEUR : PREMIER_CARRÉ : DERNIER_SQUARE
-
-Où LONGUEUR est la longueur du navire, PREMIER_CARRÉ et DERNIER_SQUARE ses première et dernière positions.
-
-Dans ce fichier, doit disposer de 4 vaisseaux (de longueurs 2,3,4 et 5).
-
+Le fichier passé en paramètre doit contenir des lignes formatées de la manière suivante :  
+LONGUEUR : PREMIER_CARRÉ : DERNIER_SQUARE  
+Où LONGUEUR est la longueur du navire, PREMIER_CARRÉ et DERNIER_SQUARE ses première et dernière positions.  
+Dans ce fichier, doit disposer de 4 vaisseaux (de longueurs 2,3,4 et 5).  
 Si le fichier n'est pas valide, programme considére ça comme une erreur.
 
 Voici des exemples de fichiers
